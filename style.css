@@ -1,0 +1,143 @@
+html{
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+
+nav{
+  margin:0;
+}
+ul {
+  list-style-type: none;
+  padding:20px;
+  margin: 0;
+  text-align: center;
+  background-color: #434343;
+}
+li {
+  display: inline;
+  font-size: 1.5em;
+  line-height: 55px;
+  font-family: serif;
+}
+li  a:hover{
+  background-color: purple;
+}
+
+li a{
+  text-decoration: none;
+  padding:20px 40px;
+  color: white;
+}
+
+
+
+
+ input {
+  display: block;
+  margin: 18px 0px;
+  width: 500px;
+  box-sizing: border-box;
+  boder-radius: 4px; box-shadow: inset 7px 2px 5px blue;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+  font-size: 25px;
+   color: blue;
+}
+button:active{
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px lightblue;
+}
+p {
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 150%;
+  letter-spacing: 7px;
+}
+.info{
+  width 350px;
+  height: 50%;
+  opacity: 0.9;
+}
+
+h1{
+  text-align: center;
+  padding: 45px;
+  color: #E389B9;
+}
+.foto{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  height: 80%;
+  transform: rotate(15deg) translateY(-15px) translateX(-15px)
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+}
+table{
+  border: 1px solid black;
+  width: 40%;
+  height: 40%;
+  padding: 50px;
+}
+
+td {
+    padding: 40px;
+    border: 1px solid #E88741;
+    text-align: center;
+    min-width: 36%;
+    min-height: 36%;
+
+    }
+  footer  .een{
+      position: fixed;
+      width: 100%;
+      height: 8%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      color: #fff;
+      background-color: #424242;
+      clear: both;
+    }
+  footer  .twee{
+      position: absolute;
+      width: 100%;
+      height: 8%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      color: #fff;
+      background-color: #424242;
+      clear: both;
+    }
+
+
+
+footer .drie{
+  position: absolute;
+  width: 100%;
+  height: 8%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background-color: #424242;
+  clear: both;
+}
